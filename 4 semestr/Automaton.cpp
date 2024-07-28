@@ -61,7 +61,10 @@ string readTextFromFile(const string& filename) {
 }
 
 int main() {
-    string filename = "input.txt"; // Замените на ваш файл
+
+    setlocale(LC_ALL, "Russian");
+
+    string filename = "input.txt"; 
     string pattern;
 
     cout << "Введите строку поиска: ";

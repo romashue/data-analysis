@@ -54,7 +54,10 @@ vector<Item> readItemsFromFile(const string& filename) {
 }
 
 int main() {
-    string filename = "items.txt"; // Замените на ваш файл
+
+    setlocale(LC_ALL, "Russian");
+
+    string filename = "items.txt"; 
     int W;
 
     cout << "Введите максимальный вес рюкзака: ";

@@ -53,7 +53,10 @@ vector<int> readWeightsFromFile(const string& filename) {
 }
 
 int main() {
-    string filename = "weights.txt"; // Замените на ваш файл
+
+    setlocale(LC_ALL, "Russian");
+
+    string filename = "weights.txt"; 
     int binCapacity;
 
     cout << "Введите вместимость ящика: ";

@@ -95,7 +95,10 @@ Graph readGraphFromFile(const string& filename) {
 }
 
 int main() {
-    string filename = "graph.txt"; // Замените на ваш файл
+
+    setlocale(LC_ALL, "Russian");
+
+    string filename = "graph.txt"; 
 
     Graph g = readGraphFromFile(filename);
 

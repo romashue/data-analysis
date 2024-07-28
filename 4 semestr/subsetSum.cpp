@@ -49,7 +49,10 @@ vector<int> readNumbersFromFile(const string& filename) {
 }
 
 int main() {
-    string filename = "numbers.txt"; // Замените на ваш файл
+
+    setlocale(LC_ALL, "Russian");
+
+    string filename = "numbers.txt"; 
     int targetSum;
 
     cout << "Введите целевую сумму: ";

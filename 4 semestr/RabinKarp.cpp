@@ -72,7 +72,10 @@ vector<int> RabinKarpSearch(const string& text, const string& pattern) {
 }
 
 int main() {
-    string filename = "input.txt"; // Замените на ваш файл
+
+    setlocale(LC_ALL, "Russian");
+
+    string filename = "input.txt"; 
     string pattern;
 
     cout << "Введите строку поиска: ";
